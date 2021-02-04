@@ -2,6 +2,7 @@ package com.example.androiddevworkshop;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -20,6 +21,13 @@ public class MainActivity extends AppCompatActivity {
 //        EditText helloEditText = findViewById(R.id.edit_hello_message);
 //        String helloMessageInput = helloEditText.getText().toString();
 //        helloTextView.setText(helloMessageInput);
+
+        openHomeActivity();
+    }
+
+    private void openHomeActivity() {
+        Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
     }
 
 }
