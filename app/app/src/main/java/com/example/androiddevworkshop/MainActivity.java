@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnClick(View view) {
-        TextView helloTextView = findViewById(R.id.text_hello_world);
-        EditText helloEditText = findViewById(R.id.edit_hello_message);
-        String helloMessageInput = helloEditText.getText().toString();
-        helloTextView.setText(helloMessageInput);
+//        TextView helloTextView = findViewById(R.id.text_hello_world);
+//        EditText helloEditText = findViewById(R.id.edit_hello_message);
+//        String helloMessageInput = helloEditText.getText().toString();
+//        helloTextView.setText(helloMessageInput);
     }
 
 }
